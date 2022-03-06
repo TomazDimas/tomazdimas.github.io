@@ -1,72 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Tomaz</title>
-    <style>
-
-        h1 {
-            font-family: sans-serif;
-            font-size: 2.7em;
-            text-align: center;
-        }
-
-        h2 {
-            font-family: sans-serif;
-            font-size: 1.8em;
-            font-weight: 800;
-        }
-
-        h3 {
-            font-weight: 600;
-        }
-
-        body {
-            font-family: monospace;
-            font-size: 15px;
-            background-color: #D2D4DA;
-        }
-
-        strong {
-            font-weight: 900;
-            color: #1C1D22;
-        }
-
-        p {
-            text-align: center;
-        }
-
-        .hjd {
-            font-weight: 600;
-        }
-
-        .hed {
-            font-weight: 300;
-        }
-
-        .links {
-            color: #145052;
-            font-style: italic;
-        }
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-    <h1>Portfólio <em>Tomaz Dimas Souza Wey de Brito</em></h1>
-    <ul>
-        <li><a href="#foto">Minha foto:</a></li>
-        <li><a href="#quemsoueu">Quem sou eu:</a></li>
-        <li><a href="#habilidades">Minhas habilidades:</a></li>
-        <li><a href="#links">Links interessantes:</a></li>
-    </ul>
-    <img id="foto" src="FotoDePerfilProfissional.jpeg" alt="Foto de Perfil Tomaz Dimas" width="300px">
-    <p id="quemsoueu">Olá! Meu nome é <strong>Tomaz</strong>, tenho 20 anos, moro em <strong>Brasília</strong> e eu sou estudante de <strong>desenvolvimento Web na Trybe</strong>.<br>
-    Desde pequeno eu sempre gostei de tecnologia, mas ao entrar na faculdade eu optei por cursar <strong>Engenharia de Produção na UnB</strong>.<br>
-    Durante meu curso, eu sempre me perguntei se eu tinha feito a escolha certa sobre o que eu iria fazer pelo resto da minha vida.<br>
-    Foi aí que eu conheci a Trybe e me apaixonei, decidi mudar minha vida e hoje em dia estou muito realizado e satisfeito com os meus planos para o futuro no mercado de tecnologia.
-    </p>
+    <div class="introducao">
+        <div class="nome">
+            <h1>Portfólio <em>Tomaz Dimas Souza Wey de Brito</em></h1>
+        </div>
+        <ul>
+            <li><a href="#foto">Minha foto:</a></li>
+            <li><a href="#quemsoueu">Quem sou eu:</a></li>
+            <li><a href="#habilidades">Minhas habilidades:</a></li>
+            <li><a href="#links">Links interessantes:</a></li>
+        </ul>
+        <div class="apresentacao">
+        <div class="foto"><img id="foto" src="FotoDePerfilProfissional.jpeg" alt="Foto de Perfil Tomaz Dimas"
+                width="300px"></div>
+        <div class="descricao">
+            <p id="quemsoueu">Olá! Meu nome é <strong>Tomaz</strong>, tenho 20 anos, moro em <strong>Brasília</strong> e
+                eu sou estudante de <strong>desenvolvimento Web na Trybe</strong>.<br>
+                Desde pequeno eu sempre gostei de tecnologia, mas ao entrar na faculdade eu optei por cursar
+                <strong>Engenharia de Produção na UnB</strong>.<br>
+                Durante meu curso, eu sempre me perguntei se eu tinha feito a escolha certa sobre o que eu iria fazer
+                pelo resto da minha vida.<br>
+                Foi aí que eu conheci a Trybe e me apaixonei, decidi mudar minha vida e hoje em dia estou muito
+                realizado e satisfeito com os meus planos para o futuro no mercado de tecnologia.
+            </p>
+        </div>
+    </div>
+</div>
     <h2 id="habilidades">Competências:</h2>
     <ul>
         <h3>Habilidades já desenvolvidas:</h3>
@@ -82,4 +51,5 @@
     <a class="links" href="fotodeperfil.jpeg" target="_blank">Minha foto:</a><br>
     <a class="links" href="https://unsplash.com/" target="_blank">Sites interessantes que me ajudam na minha rotina:</a>
 </body>
+
 </html>
