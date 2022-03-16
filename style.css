@@ -1,74 +1,84 @@
-h1 {
-    font-family: sans-serif;
-    font-size: 2.7em;
-    text-align: center;
-}
-
-h2 {
-    font-family: sans-serif;
-    font-size: 1.8em;
-    font-weight: 800;
-}
-
-h3 {
-    font-weight: 600;
-}
-
 body {
-    font-family: monospace;
-    font-size: 15px;
-    background-color: #D2D4DA;
+    font-family: sans-serif;
+    background-color: #104042;
 }
 
-strong {
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #104042;
+    text-align: center;
+    background-color: #D8F5FE;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    border: 3px solid #1C1D22;
+    max-width: 100%;
+}
+
+em {
     font-weight: 900;
-    color: #1C1D22;
 }
 
-p {
+.linksNavegacao {
+    background-color: #D8F5FE;
+    height: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    vertical-align: bottom;
     text-align: center;
+    width: 100%;
+    border: 3px solid #1C1D22;
+} 
+
+nav ul {
+    margin: 4px;
 }
 
-strong {
-    color: #C4F0FD;
-}
-
-.hjd {
-    font-weight: 600;
-}
-
-.hed {
-    font-weight: 300;
-}
-
-.links {
-    color: #145052;
-    font-style: italic;
-}
-
-.nome {
-    color: #145052;
-}
-
-.foto {
+nav ul li{
     display: inline-block;
-    width: 40%;
-    text-align: center;
-    padding: 10px;
-    background-color: #145052;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    border: 2px solid #1C1D22;
 }
 
-.descricao {
+nav ul li a {
+    text-decoration: none;
+    color: #104042;
+    padding: 3px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #104042;
+    color: #D8F5FE;
+}
+
+.fotoETexto {
+    background-color: #D8F5FE;
+    border: 3px solid #1C1D22;
+}
+
+img {
+    border-radius: 50%;
+    min-width: 300px;
+    border: 3px solid #1C1D22;
+    margin: 10px 50px;
+}
+
+#paragrafoApresentacao {
     display: inline-block;
-    max-width: 40%;
-    text-align: center;
     vertical-align: top;
-    padding: 66px;
-    color: #C4F0FD;
-    background-color: #145052;
-}
-
-.apresentacao {
+    align-items: center;
+    max-width: 70%;
     text-align: center;
+    margin-top: 75px;
+    padding: 30px 0px;
+    border: 2px solid #1C1D22;
+    font-size: large;
 }
 
+strong:hover {
+    color: #2CB0B5;
+}
