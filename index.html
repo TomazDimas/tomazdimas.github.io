@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio Tomaz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&family=Quicksand:wght@300&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="style.css" />
@@ -16,90 +18,86 @@
     ></script>
   </head>
   <body>
-    <header id="header" class="header">
+    <header class="header">
       <nav class="headerLinks">
+        <i class="fa-solid fa-house"></i>
         <ul>
-          <li><a href="#header">Início</a></li>
           <li><a href="#aboutMe">Sobre mim</a></li>
           <li><a href="">Experiência</a></li>
           <li><a href="">Projetos</a></li>
-          <li><a href="">Contato</a></li>
+          <li><a id="headerPg" href="">Contato</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section class="personalIntroduction">
-        <div class="introductionData">
+      <section class="introSection">
+        <div class="introDiv">
           <div class="imageContainer">
-            <img src="/FotoDePerfilProfissional.jpeg" alt="Foto pessoal" />
+            <img src="/perfilHd.jpg" alt="Foto pessoal" />
           </div>
 
           <div class="textContainer">
             <h2>Tomaz Dimas</h2>
-            <p>
-              Olá, meu nome é Tomaz e eu sou
-              <strong>Desenvolvedor Web Full Stack</strong> formado na Trybe!
-            </p>
-            <a href="#aboutMe">Saiba mais</a>
-          </div>
-        </div>
-      </section>
-
-      <section id="aboutMe" class="whoAmI">
-        <div class="generalData">
-          <img id="pic2" src="/fotodeperfil.jpeg" alt="" />
-          <div class="languages">
-            <h2>Idiomas</h2>
-            <div class="flags">
+            <p>Desenvolvedor Web FullStack</p>
+            <a href="#aboutMe">Me conheça!</a>
+            <div class="flagsContainer">
               <img
-                src="https://flagcdn.com/16x12/br.png"
+                src="https://flagcdn.com/36x27/br.png"
                 srcset="
-                  https://flagcdn.com/32x24/br.png 2x,
-                  https://flagcdn.com/48x36/br.png 3x
+                  https://flagcdn.com/72x54/br.png  2x,
+                  https://flagcdn.com/108x81/br.png 3x
                 "
-                width="16"
-                height="12"
+                width="36"
+                height="27"
                 alt="Brazil"
               />
               <img
-                src="https://flagcdn.com/16x12/es.png"
+                src="https://flagcdn.com/36x27/us.png"
                 srcset="
-                  https://flagcdn.com/32x24/es.png 2x,
-                  https://flagcdn.com/48x36/es.png 3x
+                  https://flagcdn.com/72x54/us.png  2x,
+                  https://flagcdn.com/108x81/us.png 3x
                 "
-                width="16"
-                height="12"
-                alt="Spain"
-              />
-              <img
-                src="https://flagcdn.com/16x12/us.png"
-                srcset="
-                  https://flagcdn.com/32x24/us.png 2x,
-                  https://flagcdn.com/48x36/us.png 3x
-                "
-                width="16"
-                height="12"
+                width="36"
+                height="27"
                 alt="United States"
               />
             </div>
           </div>
-
-          <div class="age">
-            <h2>Idade</h2>
-            <p>21 anos</p>
-          </div>
         </div>
+      </section>
 
-        <div class="generalInfo">
-          <h2>Afirmação Pessoal</h2>
-          <p>
-            Apaixonado por tecnologia desde pequeno, sou formado como
-            programador Full Stack na trybe, curso de mais de 1500 horas onde
-            realizei mais de 20 projetos de Front e Back End.Tenho bastante
-            experiência com metodologias ágeis, pois trabalhei e liderei equipes
-            que utilizavam constantemente ferramentas como Scrum e Kanban.
-          </p>
+      <section id="aboutMe">
+        <h1>Sobre mim</h1>
+        <hr />
+        <div class="aboutMeContainer">
+          <div class="leftSide">
+            <img id="imagem" src="fotoFesta.jpg" alt="Foto em Festa" />
+            <div class="skills">
+              <h3>Idade</h3>
+              <p>21 anos</p>
+              <h3>Principais Habilidades</h3>
+              <p>HTML - CSS - JavaScript - React - Git</p>
+              <h3>Idiomas</h3>
+              <p>Português - Inglês - Espanhol</p>
+            </div>
+          </div>
+          <div class="rightSide">
+            <h2>
+              Sou apaixonado por tecnologia desde criança. Formado no curso
+              FullStack da Trybe de mais de 1500 horas, realizei mais de 15
+              projetos de Front-End e Back-End. Tenho muito familiaridade com
+              metodologias ágeis como Scrum e Kanban.
+            </h2>
+            <hr>
+            <p>
+              No final de 2021 decidi me matricular no curso Trybe, onde me
+              tornei um Desenvolvedor Web FullStack. O curso possui quase 40 módulos contemplando conteúdo de Fundamentos, Front-End, Back-End e Ciência da Computação. Além disso, o curso é repleto de projetos, nos quais coloquei em prática meus conhecimentos técnicos. <a href="https://github.com/TomazDimas" target="_blank">(Você pode encontrá-los no meu GitHub!)</a>
+            </p>
+            <p>
+              Além de desenvolvedor Web, eu também curso Engenharia de Produção na Universidade de Brasília. Sendo assim, também tenho uma bagagem em escopos de otimização e organização de processos, o que me auxilia muito ao resolver problemas durante o desenvolvimento de softwares. Durante meu bacharelado, trabalhei como consultor e gernte de Projetos, utilizando frequentemente Scrun em nosso projetos.
+            </p>
+          </div>
         </div>
       </section>
     </main>
