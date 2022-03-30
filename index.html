@@ -5,57 +5,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio Tomaz</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="shortcut icon" type="imagex/jpeg" href="icone.jpg" />
+    <script
+      src="https://kit.fontawesome.com/31047915c9.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-
   <body>
-    <header class="cabecalho">
-      <h1>Portfólio <em>Tomaz Dimas Souza Wey de Brito</em></h1>
+    <header id="header" class="header">
+      <nav class="headerLinks">
+        <ul>
+          <li><a href="#header">Início</a></li>
+          <li><a href="#aboutMe">Sobre mim</a></li>
+          <li><a href="">Experiência</a></li>
+          <li><a href="">Projetos</a></li>
+          <li><a href="">Contato</a></li>
+        </ul>
+      </nav>
     </header>
-    <nav class="linksNavegacao">
-      <ul class="listaLinks">
-        <li><a href="#foto">Minha foto</a></li>
-        <li><a href="#quemsoueu">Quem sou eu</a></li>
-        <li><a href="#habilidades">Minhas habilidades</a></li>
-        <li><a href="#links">Links interessantes</a></li>
-      </ul>
-    </nav>
+
     <main>
-      <article class="apresentacao">
-				<section class="fotoETexto">
-          <img
-            id="foto"
-            src="FotoDePerfilProfissional.jpeg"
-            alt="Foto de Perfil Tomaz Dimas"
-          />
-          <p id="paragrafoApresentacao">
-            Olá! Meu nome é <strong>Tomaz</strong>, tenho 20 anos, moro em
-            <strong>Brasília</strong> e eu sou estudante de
-            <strong>desenvolvimento Web na Trybe</strong>.<br />
-            Desde pequeno eu sempre gostei de tecnologia, mas ao entrar na
-            faculdade eu optei por cursar
-            <strong>Engenharia de Produção na UnB</strong>.<br />
-            Durante meu curso, eu sempre me perguntei se eu tinha feito a
-            escolha certa sobre o que eu iria fazer pelo resto da minha vida.<br />
-            Foi aí que eu conheci a Trybe e me apaixonei, decidi mudar minha
-            vida e hoje em dia estou muito realizado e satisfeito com os meus
-            planos para o futuro no mercado de tecnologia.
+      <section class="personalIntroduction">
+        <div class="introductionData">
+          <div class="imageContainer">
+            <img src="/FotoDePerfilProfissional.jpeg" alt="Foto pessoal" />
+          </div>
+
+          <div class="textContainer">
+            <h2>Tomaz Dimas</h2>
+            <p>
+              Olá, meu nome é Tomaz e eu sou
+              <strong>Desenvolvedor Web Full Stack</strong> formado na Trybe!
+            </p>
+            <a href="#aboutMe">Saiba mais</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="aboutMe" class="whoAmI">
+        <div class="generalData">
+          <img id="pic2" src="/fotodeperfil.jpeg" alt="" />
+          <div class="languages">
+            <h2>Idiomas</h2>
+            <div class="flags">
+              <img
+                src="https://flagcdn.com/16x12/br.png"
+                srcset="
+                  https://flagcdn.com/32x24/br.png 2x,
+                  https://flagcdn.com/48x36/br.png 3x
+                "
+                width="16"
+                height="12"
+                alt="Brazil"
+              />
+              <img
+                src="https://flagcdn.com/16x12/es.png"
+                srcset="
+                  https://flagcdn.com/32x24/es.png 2x,
+                  https://flagcdn.com/48x36/es.png 3x
+                "
+                width="16"
+                height="12"
+                alt="Spain"
+              />
+              <img
+                src="https://flagcdn.com/16x12/us.png"
+                srcset="
+                  https://flagcdn.com/32x24/us.png 2x,
+                  https://flagcdn.com/48x36/us.png 3x
+                "
+                width="16"
+                height="12"
+                alt="United States"
+              />
+            </div>
+          </div>
+
+          <div class="age">
+            <h2>Idade</h2>
+            <p>21 anos</p>
+          </div>
+        </div>
+
+        <div class="generalInfo">
+          <h2>Afirmação Pessoal</h2>
+          <p>
+            Apaixonado por tecnologia desde pequeno, sou formado como
+            programador Full Stack na trybe, curso de mais de 1500 horas onde
+            realizei mais de 20 projetos de Front e Back End.Tenho bastante
+            experiência com metodologias ágeis, pois trabalhei e liderei equipes
+            que utilizavam constantemente ferramentas como Scrum e Kanban.
           </p>
-        </section>
-      <h2 id="habilidades">Competências:</h2>
-      <ul class="listaCompetencias">
-        <h3>Habilidades já desenvolvidas:</h3>
-        <li class="hjd">Gerência de Equipes</li>
-        <li class="hjd">Gestão de Projetos</li>
-        <li class="hjd">Oratória</li>
-        <h3>Habilidades em desenvolvimento:</h3>
-        <li class="hed">Unix e Bash</li>
-        <li class="hed">HTML</li>
-        <li class="hed">Git e GitHub</li>
-        <li class="hed">CSS</li>
-      </ul>
-      </article>
+        </div>
+      </section>
     </main>
   </body>
 </html>
